@@ -62,5 +62,4 @@ jobs:
             org.opencontainers.image.url=https://github/${{ github.repository }}
             org.opencontainers.image.version=1.0
           tags: |
-            # ghcr.io/${{ github.repository }}:${{ env.LEDFX_VERSION }}
             ghcr.io/${{ github.repository }}:latest
