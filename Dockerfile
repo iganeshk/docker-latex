@@ -1,4 +1,4 @@
-FROM bookworm-slim
+FROM debian:12-slim
 
 HEALTHCHECK NONE
 
